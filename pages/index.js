@@ -1,11 +1,19 @@
-import Link from "next/link";
 import Image from "next/image";
-import pic from "../public/loop.gif";
 
 export default function IndexPage() {
-  return (
-    <div>
-      Hello World. <Image src={pic} />
+  const HomeViewPort = () => (
+    <div className="full-height-view">
+      <Image
+        src="https://datocms-assets.com/55576/1631985499-loop.gif"
+        width="100"
+        height="100"
+      />
     </div>
+  );
+
+  return (
+    <main className="main">
+      <HomeViewPort />
+    </main>
   );
 }
