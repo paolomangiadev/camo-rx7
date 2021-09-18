@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   images: {
-    domains: ["datocms-assets.com"]
+    domains: ["www.datocms-assets.com"]
   },
   async redirects() {
     return [
