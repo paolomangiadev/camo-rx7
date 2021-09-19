@@ -11,12 +11,34 @@ body {
 }
 
 .full-height-view {
-  background: red;
+  background: url('https://www.datocms-assets.com/55576/1631992000-camorx7sitebg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 100vh;
   max-height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  .rx_title {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .rx7_loop_img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .wrapper {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
